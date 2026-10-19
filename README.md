@@ -16,8 +16,8 @@ Construyo modelos que convierten costos y datos de mercado en decisiones de prec
 
 ## Herramientas
 
-[Completar: Excel, SQL, Power BI, etc.]
+Excel, Power BI.
 
 ## Contacto
 
-[Completar: LinkedIn y correo]
+mabel.leon.ag@gmail.com · +593 99 250 0890
