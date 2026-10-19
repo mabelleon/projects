@@ -2,9 +2,13 @@
 
 ## Resumen
 
-Unifiqué 4 tarifarios con servicios en común en una sola matriz que cruza costos, márgenes, precios de mercado y desviaciones, y definí los protocolos de la posición de Pricing en una institución de salud en Ecuador.
+Unificación de 4 tarifarios con servicios en común en una sola matriz que cruza costos, márgenes, precios de mercado y desviaciones, y definición de los protocolos de la posición de Pricing en una institución de salud en Ecuador.
 
-**Resultado:** la facturación aumentó aproximadamente 20 % y se pudo facturar y prestar el servicio en cualquier sede.
+**Resultado**
+
+- La facturación aumentó aproximadamente 20 %.
+- Se pudo facturar y prestar el servicio en cualquier sede habilitada.
+- Se corrigieron los valores de unos 500 servicios, de una matriz de cerca de 2000.
 
 ## El problema
 
@@ -25,18 +29,25 @@ Se unificaron los servicios de los 4 tarifarios en una sola base: la matriz fina
 
 ## Protocolos de Pricing
 
-Además de la matriz, establecí los protocolos para la posición de Pricing: cómo se fija, revisa y actualiza un precio.
+Flujo establecido para la posición de Pricing, desde el costeo de un servicio nuevo hasta su activación y seguimiento.
 
-- Servicio nuevo: se costeaba junto con finanzas mientras se investigaba el precio de mercado.
-- Aprobaciones en orden: subdirector técnico y gerente del hospital, luego gerencia de marketing y finanzas.
-- Con las aprobaciones, se creaba el servicio en los sistemas y se activaba.
-- Seguimiento del margen de cada servicio sobre la matriz compartida con gerencia y finanzas.
+1. **Costeo e investigación de mercado, en paralelo.** Pricing trabajaba con finanzas en el costo del servicio mientras investigaba su precio de mercado.
+2. **Aprobación en dos niveles.** Primero el subdirector técnico y el gerente del hospital; después la gerencia de marketing y finanzas.
+3. **Creación y activación.** Con todas las aprobaciones, el servicio se creaba en los sistemas y se activaba.
+4. **Seguimiento del margen.** Cada servicio se monitoreaba en la matriz compartida con la alta gerencia y finanzas.
 
 ## Herramientas y metodología
 
-Excel para el costeo y la matriz de precios; Power BI para una matriz interactiva conectada a la facturación del hospital.
+- **Excel:** costeo y matriz de precios por servicio, con costos, márgenes, precio de mercado y desviaciones.
+- **Power BI:** matriz interactiva conectada a la facturación del hospital, que permitía dar seguimiento al margen y compartir la información con la alta gerencia y finanzas.
 
-Metodología: consolidación de servicios comunes en una sola fuente de datos, comparación costo vs. mercado, análisis de Pareto y análisis de desviaciones.
+**Metodología**
+
+1. **Consolidación.** Los servicios de los 4 tarifarios se reunieron en una sola base, con un registro por servicio.
+2. **Comparación costo-mercado.** Para cada servicio se cruzaron costo, margen, precio de mercado y desviación.
+3. **Priorización con Pareto 80 %.** Se atendieron primero los ~500 servicios de mayor peso.
+4. **Corrección del valor.** Se ajustó el precio y se obtuvo el costo adecuado para seguir el margen de cada servicio.
+5. **Seguimiento.** El margen se monitoreaba en Power BI, conectado a la facturación.
 
 ## Resultados
 
@@ -50,4 +61,23 @@ Metodología: consolidación de servicios comunes en una sola fuente de datos, c
 
 ## Material de ejemplo
 
-Pendiente: matriz demo con datos ficticios en esta carpeta.
+Todo el material de esta sección usa **datos ficticios** (40 servicios inventados). Recrea el método, no cifras reales.
+
+### Antes: 4 tarifarios, un mismo servicio con precios distintos
+
+![Dispersión de precios entre los 4 tarifarios](tarifarios_demo.png)
+
+### Después: matriz unificada y análisis de Pareto
+
+![Pareto de facturación por servicio](pareto_demo.png)
+
+### Archivo de la matriz
+
+[`matriz_demo.xlsx`](matriz_demo.xlsx) contiene 4 hojas, todas con fórmulas:
+
+| Hoja | Contenido |
+| --- | --- |
+| `Leeme` | Qué es el archivo, supuestos y código de colores |
+| `Antes_4_tarifarios` | El mismo servicio en 4 tarifarios, con precio máximo, mínimo y diferencia |
+| `Matriz_unificada` | Un registro por servicio: costo, precio, precio de mercado, margen, desviación, clase Pareto y estado de alerta |
+| `Resumen` | Indicadores calculados sobre la matriz |
