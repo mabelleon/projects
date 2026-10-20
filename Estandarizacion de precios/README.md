@@ -1,4 +1,4 @@
-# Caso 1: Estandarización de tarifarios
+Estandarización de tarifarios
 
 ## Resumen
 
