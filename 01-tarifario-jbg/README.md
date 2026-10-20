@@ -63,6 +63,18 @@ Flujo establecido para la posición de Pricing, desde el costeo de un servicio n
 
 Todo el material de esta sección usa **datos ficticios por temas de confidencialidad hacia la entidad** (40 servicios inventados). Recrea el método, no cifras reales.
 
+### Antes: 4 tarifarios, un mismo servicio con precios distintos
+
+Hoja `Antes_4_tarifarios` del Excel (primeras 20 de 40 filas). Las celdas en rojo marcan servicios con más de 15 % de diferencia entre el tarifario más caro y el más barato.
+
+![Hoja Antes_4_tarifarios](captura_antes_4_tarifarios.png)
+
+### Después: matriz unificada
+
+Hoja `Matriz_unificada` del Excel (primeras 20 de 40 filas, ordenadas por facturación). Cada servicio aparece una vez, con costo, precio, margen, desviación frente al mercado, clase Pareto y estado de alerta.
+
+![Hoja Matriz_unificada](captura_matriz_unificada.png)
+
 ### Dashboard de facturación
 
 ![Dashboard de facturación de 4 hospitales](dashboard_laboratorio.png)
