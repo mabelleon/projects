@@ -43,6 +43,12 @@ Se identificó una oportunidad: después de la venta, había artículos sobre lo
 
 Todo el material de esta sección usa **datos ficticios por temas de confidencialidad hacia la empresa**. Recrea el método, no cifras reales: solo los totales del trimestre (~USD 10.000 y 5 %) corresponden al resultado del caso. El desglose por mes, cliente y artículo es inventado, y los clientes y artículos están anonimizados.
 
+### Dashboard de gestión de pricing
+
+Indicadores del trimestre, evolución mensual y gestión por cliente y por artículo.
+
+![Dashboard de gestión de pricing](dashboard_gestion_pricing.png)
+
 ## Herramientas
 
 - **SQL** para extracción y análisis de ventas.
