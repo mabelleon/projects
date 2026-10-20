@@ -13,6 +13,7 @@ Construyo modelos que convierten costos y datos de mercado en decisiones de prec
 | 2 | Modelo de fijación de precios de fármacos *(próximamente)* | Pricing basado en costo, precio de mercado y PVP de caja |
 | 3 | Acuerdos comerciales y recuperación de descuentos *(próximamente)* | Modelo relacional de clientes, acuerdos y productos; captura de rebates |
 | 4 | Finanzas operativas de una florería *(próximamente)* | Gastos, nómina, horarios y planeación de demanda |
+| 5 | [Matriz de precios y dashboard de facturación](05-matriz-precios-dashboard/) | Márgenes por rango, referencias de precio, desviación vs. tarifa y dashboard de 4 hospitales |
 
 ## Herramientas
 
