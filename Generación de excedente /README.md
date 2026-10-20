@@ -1,4 +1,4 @@
-# Caso 3: Gestión de pricing y recuperación de descuentos
+# Generación de excedente a partir de descuentos comerciales
 
 ## Resumen
 
