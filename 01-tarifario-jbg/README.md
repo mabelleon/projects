@@ -61,7 +61,7 @@ Flujo establecido para la posición de Pricing, desde el costeo de un servicio n
 
 ## Material de ejemplo
 
-Todo el material de esta sección usa **datos ficticios por temas de confidencialidad hacia la entidad** (40 servicios inventados). Recrea el método, no cifras reales.
+Todo el material de esta sección usa **datos ficticios por temas de confidencialidad hacia la entidad** . Recrea el método, no cifras reales.
 
 ### Antes: 4 tarifarios, un mismo servicio con precios distintos
 
