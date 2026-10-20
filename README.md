@@ -11,7 +11,7 @@ Construyo modelos que convierten costos y datos de mercado en decisiones de prec
 | --- | --- | --- |
 | 1 | [Estandarización de tarifarios](01-tarifario-jbg/) | Consolidación de datos, costos, márgenes y análisis de desviaciones frente al mercado |
 | 2 | Modelo de fijación de precios de fármacos *(próximamente)* | Pricing basado en costo, precio de mercado y PVP de caja |
-| 3 | Acuerdos comerciales y recuperación de descuentos *(próximamente)* | Modelo relacional de clientes, acuerdos y productos; captura de rebates |
+| 3 | [Gestión de pricing y recuperación de descuentos](03-gestion-pricing-rebates/) | Consultas SQL sobre ventas, solicitud de descuentos al proveedor, rebate mensual y dashboard por cliente y artículo |
 | 4 | Finanzas operativas de una florería *(próximamente)* | Gastos, nómina, horarios y planeación de demanda |
 | 5 | [Matriz de precios y dashboard de facturación](05-matriz-precios-dashboard/) | Márgenes por rango, referencias de precio, desviación vs. tarifa y dashboard de 4 hospitales |
 
