@@ -63,13 +63,11 @@ Flujo establecido para la posición de Pricing, desde el costeo de un servicio n
 
 Todo el material de esta sección usa **datos ficticios por temas de confidencialidad hacia la entidad** (40 servicios inventados). Recrea el método, no cifras reales.
 
-### Antes: 4 tarifarios, un mismo servicio con precios distintos
+### Dashboard de facturación
 
-![Dispersión de precios entre los 4 tarifarios](tarifarios_demo.png)
+![Dashboard de facturación de 4 hospitales](dashboard_laboratorio.png)
 
-### Después: matriz unificada y análisis de Pareto
-
-![Pareto de facturación por servicio](pareto_demo.png)
+Muestra la facturación mensual de los 4 hospitales y el total, la facturación y el margen por especialidad, la facturación anual por hospital y 5 KPIs: facturación total, margen global, variación de diciembre contra noviembre, hospital líder y especialidad con mayor margen.
 
 ### Archivo de la matriz
 

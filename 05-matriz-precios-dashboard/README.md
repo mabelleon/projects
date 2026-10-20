@@ -30,12 +30,6 @@ Hoja `Matriz` de [`matriz_precios_laboratorio.xlsx`](matriz_precios_laboratorio.
 
 Resultado de la muestra: 21 servicios con margen entre 10 % y 30 %, 20 entre 30 % y 50 %, 15 entre 50 % y 70 %, y 3 por encima de 70 %.
 
-## Dashboard
-
-![Dashboard de facturación de 4 hospitales](dashboard_laboratorio.png)
-
-Muestra la facturación mensual de los 4 hospitales y el total, la facturación y el margen por especialidad, la facturación anual por hospital y 5 KPIs: facturación total, margen global, variación de diciembre contra noviembre, hospital líder y especialidad con mayor margen.
-
 ## Archivo de Excel
 
 | Hoja | Contenido |
