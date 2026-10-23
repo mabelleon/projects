@@ -11,6 +11,8 @@ Modelo en Excel que compara lo presupuestado con lo real durante seis meses, exp
 - Proyección a diciembre: caja de USD 151.695 (optimista), USD 107.816 (base) y USD 61.492 (pesimista).
 - Solo el escenario pesimista activa la alerta de caja mínima (USD 65.000), en noviembre y diciembre.
 
+![Dashboard de presupuesto vs. real y flujo de caja](dashboard_presupuesto_flujo.png)
+
 ## El problema
 
 El presupuesto anual se revisa tarde y casi siempre solo muestra «cuánto nos desviamos», no por qué. Además, una utilidad positiva no garantiza caja: si los cobros se retrasan, la caja puede caer aunque el negocio sea rentable.

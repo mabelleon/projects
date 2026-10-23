@@ -11,6 +11,8 @@ Modelo en Excel que responde dos preguntas sobre un servicio de salud: **cuánto
 - Utilidad operativa actual: USD 22.000 al mes.
 - Con elasticidad 1,5 la utilidad es casi plana entre +5 % y +25 % de precio (máximo cerca de USD 138). Subir el precio aporta poco y reduce volumen: la decisión depende de qué tan confiable sea la elasticidad.
 
+![Dashboard de punto de equilibrio y sensibilidad de precios](dashboard_equilibrio.png)
+
 ## El problema
 
 Antes de ajustar un precio, la gerencia necesita saber cuánto margen tiene el servicio y cuánto volumen puede perder sin dejar de ser rentable. Un precio más alto mejora el margen por unidad pero reduce las ventas; el efecto neto depende de la elasticidad.
